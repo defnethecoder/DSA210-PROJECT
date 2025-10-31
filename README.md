@@ -1,16 +1,11 @@
 **Defne Çatana – DSA210 Section D**
 
-# Europe’s Right-Wing Rise and Word Uncertainty Index (WUI)
-
+#  How Political and Economic Uncertainty Affects the Rise of Right-Wing Parties in Europe - DSA210 Project
 ---
 
 ## Project Overview
 
-This project investigates how rising uncertainty levels measured through the World Uncertainty Index (WUI) correlate with the growing support for right-wing political parties across Europe over the last decade.
-
-By combining political, economic, and text-based uncertainty data, the project aims to understand whether periods of heightened uncertainty, such as financial crises, migration surges, or geopolitical shocks, contribute to shifts in voter behavior toward right-wing parties.
-
-This analysis integrates political science and data science through the use of panel datasets, hypothesis testing, and machine learning models to quantify how uncertainty and macroeconomic indicators shape electoral outcomes.
+This project investigates how rising uncertainty levels measured through the World Uncertainty Index (WUI) correlate with the growing support for right-wing political parties across Europe over the last decade. By combining political, economic, and uncertainty data, this project aims to understand whether periods of heightened uncertainty, such as financial crises, migration surges, or geopolitical shocks, contribute to shifts in voter behavior toward right-wing parties.
 
 ---
 
@@ -20,17 +15,15 @@ This analysis integrates political science and data science through the use of p
 
 2. Identify economic amplifiers by evaluating whether macroeconomic conditions such as unemployment and inflation strengthen the relationship between uncertainty and right-wing voting behavior.
 
-3. Explore migration and media effects to determine if migration inflows or public attention to immigration topics amplify the political impact of uncertainty.
+3. Explore migration and media effects to determine if migration inflows or public attention to immigration topics affect the political impact of uncertainty.
 
 ---
 
 ## Motivation
 
-In recent years, Europe has faced multiple overlapping crises — the Eurozone debt crisis, refugee movements, Brexit, the pandemic, and ongoing geopolitical tensions. These events have generated unprecedented economic and informational uncertainty, reflected in both traditional media and public discourse.  
+In recent years, Europe has faced multiple overlapping crises, such as the Eurozone debt crisis, refugee movements, Brexit, the pandemic, and ongoing geopolitical tensions. These events have generated unprecedented economic and informational uncertainty, reflected in both traditional media and public discourse.  
 
-At the same time, right-wing and nationalist parties have seen growing support across many European democracies. This project aims to investigate whether there is a systematic statistical connection between these two phenomena, offering insights into how societies respond to instability.
-
-Understanding these dynamics benefits political scientists studying voter polarization and populism, economists modeling uncertainty shocks, and policy-makers designing stability-oriented interventions.
+At the same time, right-wing and nationalist parties have seen growing support across many European countries. In this project, I aim to investigate whether there is a systematic statistical connection between these two phenomena, offering insights into how societies respond to instability. 
 
 ---
 
@@ -48,11 +41,7 @@ The World Uncertainty Index, developed by Ahir, Bloom, and Furceri (IMF, 2024), 
 It includes country, quarter, and uncertainty index variables and covers the period 1996–2024 (converted to annual averages).  
 The dataset is publicly available through the IMF.
 
-### 3. Enrichment Variables
-To strengthen the analysis, several additional datasets are used:
-- From the World Bank and Eurostat: GDP growth, unemployment rate, inflation rate, and Gini index to control for economic conditions.
-- From UNHCR and Eurostat: net migration rate and asylum application numbers to capture migration intensity.
-- From Google Trends and the European Social Survey (ESS): indicators such as search interest in “immigration”, “security”, or “economy” topics to measure media attention and social sentiment.
+### 3. Enrichment Variables (migration rates or economic indexes)
 
 ---
 
@@ -67,10 +56,8 @@ Higher uncertainty levels are associated with an increase in right-wing vote sha
 The World Uncertainty Index (WUI) has no significant effect on right-wing vote share.
 
 **Extended Hypotheses:**  
-- The impact of uncertainty is amplified in periods of high unemployment.  
-- Immigration surges strengthen the uncertainty–right-wing relationship.
-
-These hypotheses are tested using panel regression, correlation, and fixed-effects models.
+The impact of uncertainty is increased in periods of high unemployment.  
+Immigration surges strengthen the uncertainty–right-wing relationship.
 
 ---
 
@@ -83,12 +70,9 @@ These hypotheses are tested using panel regression, correlation, and fixed-effec
    Trends between WUI and right-wing vote share will be visualized over time. Correlation matrices and time-series heatmaps will be created to identify co-movements. Key temporal spikes such as the 2015 migration crisis and 2020 pandemic will be highlighted.
 
 3. **Hypothesis Testing**  
-   Fixed-effects regression models will be used to estimate the relationship between uncertainty and right-wing voting. Interaction terms such as “uncertainty × unemployment” will be added to test moderating effects. Significance will be evaluated using p-values and R² metrics.
+   Fixed-effects regression models will be used to estimate the relationship between uncertainty and right-wing voting. Also to see a relationship between voter behavior and migration/ representation on media.
 
-4. **Machine Learning Models**  
-   A Random Forest Regressor will be trained to predict right-wing vote share using variables such as uncertainty index, unemployment rate, migration rate, GDP growth, and inflation rate. SHAP analysis will be used to interpret feature importance.
-
-5. **Visualization and Interpretation**  
+4. **Visualization and Interpretation**  
    Results will be presented through line charts showing the evolution of uncertainty and vote share, geographic heatmaps showing regional variation, and feature importance plots summarizing machine learning results.
 
 ---
@@ -99,6 +83,13 @@ Preliminary findings suggest that periods of high uncertainty are consistently a
 Economic conditions appear to amplify this relationship — unemployment and inflation intensify the effects of uncertainty on voting behavior.  
 Migration spikes, such as those during 2015–2016, coincide with both higher uncertainty and right-wing electoral surges.  
 
+---
+
+##Limitations
+
+The quarterly nature of the WUI data and the irregular timing of elections require data aggregation, which may affect short-term effects.  
+There is also potential endogeneity: political shifts toward the right could themselves increase perceived uncertainty.  
+Finally, defining “right-wing” parties consistently across countries is challenging due to ideological variation.
 
 
 
