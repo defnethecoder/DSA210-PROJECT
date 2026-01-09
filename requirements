@@ -1,0 +1,27 @@
+# Data Processing
+pandas
+numpy
+
+# Visualization
+matplotlib
+seaborn
+
+# Statistics (t-test, ANOVA, correlation)
+scipy
+
+# Machine Learning (ML)
+scikit-learn
+
+# Feature Engineering
+holidays
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from scipy import stats
+import json
+import ast
+import os
+import warnings
+import zipfile as zipfile
