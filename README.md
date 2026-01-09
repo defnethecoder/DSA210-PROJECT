@@ -29,19 +29,23 @@ At the same time, right-wing and nationalist parties have seen growing support a
 
 ## Dataset
 
-This project integrates multiple open datasets for a comprehensive analysis.
+This project integrates multiple open datasets for a comprehensive analysis. Mentioned datasets are available under the file "data"
 
 ### 1. European Election Data (EED / ParlGov)
 The European Election Database and ParlGov provide country-year-level election results across Europe.  
 The dataset includes variables such as country, year, party name, vote share, and party family.  
 It is used to measure right-wing vote share as the dependent variable.
+Dataset Name: "Election.csv"
 
 ### 2. World Uncertainty Index (WUI)
 The World Uncertainty Index, developed by Ahir, Bloom, and Furceri (IMF, 2024), is a text-based measure of national uncertainty extracted from Economist Intelligence Unit country reports.  
 It includes country, quarter, and uncertainty index variables and covers the period 1996–2024 (converted to annual averages).  
 The dataset is publicly available through the IMF.
+Dataset Name: "WUI Europe (3).csv"
 
-### 3. Enrichment Variables (migration rates or economic indexes)
+### 3. Enrichment Variables (migration rates)
+The dataset is taken from EuroStat, which a statistics devolopment by EU. 
+Dataset Name: "migration.csv"
 
 ---
 
@@ -88,7 +92,8 @@ Migration spikes, such as those during 2015–2016, coincide with both higher un
 
 The quarterly nature of the WUI data and the irregular timing of elections require data aggregation, which may affect short-term effects.  
 There is also potential endogeneity: political shifts toward the right could themselves increase perceived uncertainty.  
-Finally, defining “right-wing” parties consistently across countries is challenging due to ideological variation.
+Defining “right-wing” parties consistently across countries is challenging due to ideological variation.
+2025 data are unavailable and in WUI Europe data, it is the most "uncertain" year to analyze.
 
 
 
