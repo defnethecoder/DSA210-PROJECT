@@ -56,7 +56,7 @@ Higher uncertainty levels are associated with an increase in right-wing vote sha
 The World Uncertainty Index (WUI) has no significant effect on right-wing vote share.
 
 **Extended Hypotheses:**  
-The impact of uncertainty is increased in periods of high unemployment.  
+The impact of uncertainty is increased in periods of high immigration.  
 Immigration surges strengthen the uncertainty–right-wing relationship.
 
 ---
@@ -79,13 +79,12 @@ Immigration surges strengthen the uncertainty–right-wing relationship.
 
 ## Findings and Insights
 
-Preliminary findings suggest that periods of high uncertainty are consistently associated with increases in right-wing vote share, particularly in Southern and Eastern Europe.  
-Economic conditions appear to amplify this relationship — unemployment and inflation intensify the effects of uncertainty on voting behavior.  
+Preliminary findings suggest that periods of high uncertainty are consistently associated with increases in right-wing vote share, particularly in Southern and Eastern Europe.   
 Migration spikes, such as those during 2015–2016, coincide with both higher uncertainty and right-wing electoral surges.  
 
 ---
 
-##Limitations
+## Limitations
 
 The quarterly nature of the WUI data and the irregular timing of elections require data aggregation, which may affect short-term effects.  
 There is also potential endogeneity: political shifts toward the right could themselves increase perceived uncertainty.  
