@@ -5,7 +5,7 @@
 
 ## Project Overview
 
-This project investigates how rising uncertainty levels measured through the World Uncertainty Index (WUI) correlate with the growing support for right-wing political parties across Europe over the last decade. By combining political, economic, and uncertainty data, this project aims to understand whether periods of heightened uncertainty, such as financial crises, migration surges, or geopolitical shocks, contribute to shifts in voter behavior toward right-wing parties.
+This project investigates how rising uncertainty levels measured through the World Uncertainty Index (WUI) correlate with the growing support for right-wing political parties across Europe over the last decade. By combining political, economic, and uncertainty data, this project aims to understand whether periods of heightened uncertainty, such as migration surges, or geopolitical shocks, contribute to shifts in voter behavior toward right-wing parties.
 
 ---
 
